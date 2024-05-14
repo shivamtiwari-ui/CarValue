@@ -14,6 +14,7 @@ from pathlib import Path
 from .info import *
 import os
 import psycopg as Database
+import django.db.backends.postgresql
 import pq
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -50,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'app',
+    'django.contrib.staticfiles',
 ]
 
 MIDDLEWARE = [
