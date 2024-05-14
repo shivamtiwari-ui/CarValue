@@ -14,6 +14,7 @@ from pathlib import Path
 from .info import *
 import os
 import psycopg as Database
+import pq
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
